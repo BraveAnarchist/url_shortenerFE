@@ -24,7 +24,7 @@ function App() {
   return (
     <>
       <form >
-      <input type='text' placeholder='enter url to be shorten' value={count} onChange={(e)=>setCount(e.target.value)} />
+      <input style={{padding:"1vh"}} type='text' placeholder='enter url to be shorten' value={count} onChange={(e)=>setCount(e.target.value)} />
       
       <button onClick={submitHandler} style={{marginTop:"1vh"}}>Short</button>
       </form>
